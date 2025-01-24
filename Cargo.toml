@@ -1,0 +1,9 @@
+[package]
+name = "tar_zstd_seek"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tar = "0.4.43"
+thiserror = "2.0.11"
+zstd = { git = "https://github.com/gyscos/zstd-rs", branch = "main" }
